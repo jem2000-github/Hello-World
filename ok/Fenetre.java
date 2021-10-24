@@ -1,3 +1,4 @@
+package ok;
 public class Fenetre {
 
     private String frame = "carré";
