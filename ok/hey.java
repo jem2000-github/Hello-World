@@ -11,20 +11,20 @@ import org.junit.Test;
 public class hey
  {
 
-    Fenetre c;
+    Fenetre x;
 
     @Before
     public void faireAvant(){
 
 
-        c = new Fenetre();
+        x = new Fenetre();
 
     }
 
     @Test
     public void yes(){
         
-        assertTrue(c instanceof Fenetre);
+        assertTrue(x instanceof Fenetre);
         //assertFalse(c instanceof Fenetre);
 
     }
